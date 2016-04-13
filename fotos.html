@@ -30,49 +30,52 @@
     <article class="album-fotos">
       <h1>Prédio da Fatec Franca</h1>
 
-      <figure>
+      <figure class="lb-foto">
         <img src="_imagens/foto01-thumb.jpg" alt="Foto 01" />
         <figcaption>Foto 01</figcaption>
       </figure>
 
-      <figure>
+      <figure class="lb-foto" id="foto02">
         <img src="_imagens/foto02-thumb.jpg" alt="Foto 02" />
         <figcaption>Foto 02</figcaption>
       </figure>
 
-      <figure>
+      <figure class="lb-foto">
         <img src="_imagens/foto03-thumb.jpg" alt="Foto 03" />
         <figcaption>Foto 03</figcaption>
       </figure>
 
-      <figure>
+      <figure class="lb-foto">
         <img src="_imagens/foto04-thumb.jpg" alt="Foto 04" />
         <figcaption>Foto 04</figcaption>
       </figure>
 
-      <figure>
+      <figure class="lb-foto">
         <img src="_imagens/foto05-thumb.jpg" alt="Foto 05" />
         <figcaption>Foto 05</figcaption>
       </figure>
 
-      <figure>
+      <figure class="lb-foto">
         <img src="_imagens/foto06-thumb.jpg" alt="Foto 06" />
         <figcaption>Foto 06</figcaption>
       </figure>
 
-      <figure>
+      <figure class="lb-foto">
         <img src="_imagens/foto07-thumb.jpg" alt="Foto 07" />
         <figcaption>Foto 07</figcaption>
       </figure>
 
-      <figure>
+      <figure class="lb-foto">
         <img src="_imagens/foto08-thumb.jpg" alt="Foto 08" />
         <figcaption>Foto 08</figcaption>
       </figure>
 
       <div id="lightbox">
         <img id="btn-fechar" src="_imagens/close.png" alt="Fechar" />
-        <img id="foto-full" src="#" alt="" />
+        <figure id="lb-figure">
+          <img id="foto-full" src="_imagens/foto01-full.jpg" alt="" />
+          <figcaption id="foto-caption">Foto 01</figcaption>
+        </figure>
       </div>
 
     </article>
@@ -87,13 +90,23 @@
 
   var lb = document.getElementById("lightbox");
 
-  function fecharLightbox() {
+  function fecharLightbox(e) {
     lb.style.visibility = "hidden";
   }
+
+  function abrirLightbox(figure) {
+    var img = figure.getElementsByTagName("img")[0];
+    alert(img.src);
+    lb.style.visibility = "visible";
+  }
+
+  document.getElementById("foto02").onclick =
+    function() { abrirLightbox(this) };
 
   var btnFechar = document.getElementById("btn-fechar");
 
   btnFechar.onclick = fecharLightbox;
   lb.onclick = fecharLightbox;
+  document.getElementById("lb-figure").onclick = function(e) { e.stopPropagation(); }
 
 </script>
