@@ -74,6 +74,9 @@ section {
   float: left;
   padding: 15px 2% 15px 0;
 }
+section.sem-aside {
+  width: 100%;
+}
 section a {
   color: rgb(176, 17, 22);
   text-decoration: none;
@@ -212,6 +215,44 @@ aside video {
   margin: 10px 5%;
   width: 90%;
   box-sizing: content-box;
+}
+
+iframe{
+  border: none;
+}
+
+.texto-centro {
+  text-align: center;
+  text-indent: 0;
+}
+
+article.album-fotos figure {
+  background-color: #fff;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgb(74, 85, 92);
+  padding: 8px;
+  border-radius: 0;
+  width: auto;
+  float: left;
+}
+
+article.album-fotos figure img {
+  width: auto;
+}
+
+#lightbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#lightbox #btn-fechar {
+  position: absolute;
+  right: 10px;
+  top: 10px;
 }
 
 footer {

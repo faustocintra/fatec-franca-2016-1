@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+  <!--Arquivo de Css-->
+  <link rel="stylesheet" href="_estilos/estilo.css" />
+  <meta charset="UTF-8">
+  <title>Faculdade de Tecnologia de Franca &ldquo;Dr. Thomaz Novelino&rdquo; &mdash; Fatec Franca</title>
+
+</head>
+<body>
+  <header>
+    <img id="logo-principal" src="_imagens/logo-principal.png" alt="Logotipo da Fatec Franca" title="Logotipo da Fatec Franca"/>
+    <img id="logo-secundario" src="_imagens/logo-secundario.png" alt="Logotipo do Centro Paula Souza" title="Logotipo do Centro Paula Souza" />
+    <!--<div id="logo-secundario" title="Logotipo do Centro Paula Souza"></div>-->
+  </header>
+  <nav id="menu-principal">
+    <ul>
+      <li>
+        <a href="index.html">Início</a>
+      </li>
+      <li><a href="cursos.html">Cursos</a></li>
+      <li><a href="vestibular.html">Vestibular</a></li>
+      <li><a href="fotos.html" class="link-sel">Fotos</a></li>
+      <li><a href="multimidia.html">Multimídia</a></li>
+      <li><a href="sobre.html">Sobre</a></li>
+      <li><a href="contato.html">Contato</a></li>
+    </ul>
+  </nav>
+  <section class="sem-aside">
+    <article class="album-fotos">
+      <h1>Prédio da Fatec Franca</h1>
+
+      <figure>
+        <img src="_imagens/foto01-thumb.jpg" alt="Foto 01" />
+        <figcaption>Foto 01</figcaption>
+      </figure>
+
+      <figure>
+        <img src="_imagens/foto02-thumb.jpg" alt="Foto 02" />
+        <figcaption>Foto 02</figcaption>
+      </figure>
+
+      <figure>
+        <img src="_imagens/foto03-thumb.jpg" alt="Foto 03" />
+        <figcaption>Foto 03</figcaption>
+      </figure>
+
+      <figure>
+        <img src="_imagens/foto04-thumb.jpg" alt="Foto 04" />
+        <figcaption>Foto 04</figcaption>
+      </figure>
+
+      <figure>
+        <img src="_imagens/foto05-thumb.jpg" alt="Foto 05" />
+        <figcaption>Foto 05</figcaption>
+      </figure>
+
+      <figure>
+        <img src="_imagens/foto06-thumb.jpg" alt="Foto 06" />
+        <figcaption>Foto 06</figcaption>
+      </figure>
+
+      <figure>
+        <img src="_imagens/foto07-thumb.jpg" alt="Foto 07" />
+        <figcaption>Foto 07</figcaption>
+      </figure>
+
+      <figure>
+        <img src="_imagens/foto08-thumb.jpg" alt="Foto 08" />
+        <figcaption>Foto 08</figcaption>
+      </figure>
+
+      <div id="lightbox">
+        <img id="btn-fechar" src="_imagens/close.png" alt="Fechar" />
+        <img id="foto-full" src="#" alt="" />
+      </div>
+
+    </article>
+  </section>
+  <footer>
+    Rodapé
+  </footer>
+
+</body>
+</html>
+<script>
+
+  var lb = document.getElementById("lightbox");
+
+  function fecharLightbox() {
+    lb.style.visibility = "hidden";
+  }
+
+  var btnFechar = document.getElementById("btn-fechar");
+
+  btnFechar.onclick = fecharLightbox;
+  lb.onclick = fecharLightbox;
+
+</script>
