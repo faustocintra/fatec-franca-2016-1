@@ -91,13 +91,15 @@
   var lb = document.getElementById("lightbox");
 
   function fecharLightbox(e) {
+    lb.style.backgroundColor = "transparent";
     lb.style.visibility = "hidden";
   }
 
   function abrirLightbox(figure) {
-    var img = figure.getElementsByTagName("img")[0];
-    alert(img.src);
+    //var img = figure.getElementsByTagName("img")[0];
+    //alert(img.src);
     lb.style.visibility = "visible";
+    lb.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
   }
 
   document.getElementById("foto02").onclick =
