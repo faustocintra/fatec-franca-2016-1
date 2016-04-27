@@ -31,7 +31,7 @@
       <h1>Prédio da Fatec Franca</h1>
 
       <figure class="lb-foto">
-        <img src="_imagens/foto01-thumb.jpg" alt="Foto 01" />
+        <img src="_imagens/foto01-thumb.jpg" alt="Vista do bloco central" />
         <figcaption>Foto 01</figcaption>
       </figure>
 
@@ -73,7 +73,7 @@
       <div id="lightbox">
         <img id="btn-fechar" src="_imagens/close.png" alt="Fechar" />
         <figure id="lb-figure">
-          <img id="foto-full" src="_imagens/foto01-full.jpg" alt="" />
+          <img id="foto-full" src="#" alt="" />
           <figcaption id="foto-caption">Foto 01</figcaption>
         </figure>
       </div>
@@ -96,19 +96,41 @@
   }
 
   function abrirLightbox(figure) {
-    //var img = figure.getElementsByTagName("img")[0];
-    //alert(img.src);
+    var thumb = figure.getElementsByTagName("img")[0];
+    var thumb_src = thumb.src;
+    var full_src = thumb_src.replace("thumb", "full");
+
+    //alert(thumb_src);
+    //alert(full_src);
+
+    document.getElementById("foto-full").src = full_src;
+    document.getElementById("foto-full").alt = thumb.alt;
+
+    var thumb_cap = figure.getElementsByTagName("figcaption")[0];
+    //document.getElementById("foto-caption").innerHTML = thumb_cap.innerHTML;
+    document.getElementById("foto-caption").innerHTML = thumb.alt;
+
     lb.style.visibility = "visible";
     lb.style.backgroundColor = "rgba(0, 0, 0, 0.8)";
   }
 
-  document.getElementById("foto02").onclick =
-    function() { abrirLightbox(this) };
+  /*document.getElementById("foto02").onclick =
+    function() { abrirLightbox(this) };*/
+
+  var fotos = document.getElementsByClassName("lb-foto");
+
+  for(var i in fotos) {
+    fotos[i].onclick = function() { abrirLightbox(this); };
+  }
 
   var btnFechar = document.getElementById("btn-fechar");
 
   btnFechar.onclick = fecharLightbox;
   lb.onclick = fecharLightbox;
-  document.getElementById("lb-figure").onclick = function(e) { e.stopPropagation(); }
+
+  // Evita que o clique sobre a imagem feche o lightbox
+  document.getElementById("lb-figure").onclick = function(e) {
+    e.stopPropagation();
+  }
 
 </script>
