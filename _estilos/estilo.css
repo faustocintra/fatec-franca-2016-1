@@ -281,12 +281,28 @@ article.album-fotos figure img {
 }
 
 footer {
-  background-color: palegreen;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  background-color: rgb(74, 85, 92);
+  border-top: 2px solid rgb(176, 17, 22);
+  margin: 0 -5vw;
+  padding: 10px;
+  clear: both;
+  color: #fff;
+  font-size: 90%;
 }
+
+footer p {
+  text-align: center;
+}
+
+footer a {
+  color: yellow;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 400px) {
   section, aside {
     float: none;
