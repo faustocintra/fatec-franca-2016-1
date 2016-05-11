@@ -303,6 +303,47 @@ footer a:hover {
   text-decoration: underline;
 }
 
+form div {
+  margin: 20px 20px 20px 0;
+  float: left;
+}
+
+form label, form legend {
+  color: rgb(74, 85, 92);
+  font-size: 90%;
+}
+
+form fieldset {
+  border: solid 1px rgb(176, 17, 22);
+  border-radius: 10px;
+}
+
+.padding-top-20px {
+  padding-top: 20px;
+}
+
+.no-float {
+  clear: both;
+}
+
+.form-buttons {
+  clear: both;
+  text-align: center;
+  width: 100%;
+}
+
+.form-buttons input {
+  font-size: 120%;
+  font-weight: bold;
+}
+
+form input, form textarea, form select {
+  border: 1px solid rgb(176, 17, 22);
+  border-radius: 4px;
+  font-size: 100%;
+  padding: 4px;
+}
+
 @media (max-width: 400px) {
   section, aside {
     float: none;
