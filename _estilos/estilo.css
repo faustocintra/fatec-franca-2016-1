@@ -139,6 +139,12 @@ article figure figcaption {
 article figure img {
   width: 100%;
 }
+.figure-vestibular{
+  float: left;
+  margin: 8px 20px 8px 0;
+  width: 230px;
+  height: 325px;
+}
 
 .figure-left {
   float: left;
