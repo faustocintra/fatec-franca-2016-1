@@ -3,6 +3,17 @@
 /*
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,700,700italic);*/
 
+/*Na pagina sobre altera os tamanhos dos <h5> e dos <p>*/
+#sobre h5{
+  font-size: 12pt;
+  color: rgb(85, 96, 103);
+}
+#sobre p {
+  font-size: 11pt;
+  text-align: match-parent;
+}
+/*Rafael Gasparini*/
+
 @font-face {
   font-family: 'Fonte Títulos';
   src: url('../_fontes/DINMedium.ttf');
