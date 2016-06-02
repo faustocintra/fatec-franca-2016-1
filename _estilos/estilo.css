@@ -10,8 +10,15 @@
 }
 #sobre p {
   font-size: 11pt;
-  text-align: match-parent;
+  text-align: left;
 }
+/*Altera as configurações da fachada na pagina sobre.html*/
+#fachada-sobre{
+  width: auto ;
+  height: auto;
+
+}
+
 /*Rafael Gasparini*/
 
 @font-face {
