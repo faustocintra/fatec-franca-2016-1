@@ -12,7 +12,7 @@ body {
   font-family: Verdana, Arial, sans-serif;
   font-size: 12pt;
   padding: 0;
-  margin: 0 5vw;
+  margin: 05vw;
 
 
 }
@@ -86,6 +86,7 @@ section a {
   color: rgb(176, 17, 22);
   text-decoration: none;
   transition: opacity 1s;
+
 }
 
 section a:hover {
@@ -359,6 +360,7 @@ form input, form textarea, form select {
   }
   #menu-principal ul {
     display: none;
+
   }
   #menu-principal {
     height: 48px;
@@ -368,6 +370,7 @@ form input, form textarea, form select {
     position: fixed;
     top: 20px;
     right: 20px;
+    margin-top: 40px;
   }
   #menu-principal:hover ul {
     display: block;
