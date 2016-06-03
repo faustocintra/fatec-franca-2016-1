@@ -181,7 +181,7 @@ article figure img {
 
 article p {
   text-align: justify;
-  text-indent: 10%;
+  text-indent: 5%;
 }
 
 /* limpa as flutuações de ambos os lados */
@@ -375,6 +375,7 @@ form input, form textarea, form select {
 ul, li .lista-vestibular{
   margin: 0 0 1.5em 12px;
   padding: 0 0 0 12px;  
+  line-height: 1.6;
 }
 
 .lista-sobre{
