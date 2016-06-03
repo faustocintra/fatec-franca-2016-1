@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Fonte Títulos';
+    src: url('../_fontes/DINMedium.ttf');
+}
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12pt;
+    padding: 0;
+    margin: 0 5vw;
+
+}
+
+#texto h4{
+    margin-bottom: -12px;
+}
+
+p{
+    text-align: justify;
+}
+
+
