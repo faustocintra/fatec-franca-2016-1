@@ -98,6 +98,10 @@ footer a:hover {
     text-decoration: underline;
 }
 
+footer a {
+    color:  #B0B0B0;
+    text-decoration: none;
+}
 p{
     text-align: justify;
 }
