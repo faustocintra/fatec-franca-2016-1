@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9af76e51-8adf-4543-bb05-fbb0fb5686bc" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/contato.html" afterPath="$PROJECT_DIR$/contato.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cursos.html" afterPath="$PROJECT_DIR$/cursos.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/multimidia.html" afterPath="$PROJECT_DIR$/multimidia.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sobre.html" afterPath="$PROJECT_DIR$/sobre.html" />
     </list>
     <ignored path="fatec-franca-2016-1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,17 +36,27 @@
         <entry file="file://$PROJECT_DIR$/sobre.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-4.923077">
-              <caret line="9" column="58" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="58" />
+              <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contato.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/contato.html">
+      <file leaf-file-name="multimidia.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/multimidia.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.23448277">
-              <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+              <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="contato.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contato.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.230769">
+              <caret line="8" column="60" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -83,10 +92,10 @@
         <option value="$PROJECT_DIR$/_estilos/estilo.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/fotos.html" />
-        <option value="$PROJECT_DIR$/multimidia.html" />
-        <option value="$PROJECT_DIR$/sobre.html" />
         <option value="$PROJECT_DIR$/contato.html" />
         <option value="$PROJECT_DIR$/cursos.html" />
+        <option value="$PROJECT_DIR$/sobre.html" />
+        <option value="$PROJECT_DIR$/multimidia.html" />
       </list>
     </option>
   </component>
@@ -320,21 +329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multimidia.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6818874">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sobre.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.923077">
-          <caret line="9" column="58" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cursos.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.576923">
@@ -345,8 +339,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/contato.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.230769">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sobre.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.923077">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multimidia.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23448277">
-          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+          <caret line="8" column="59" selection-start-line="8" selection-start-column="59" selection-end-line="8" selection-end-column="59" />
           <folding />
         </state>
       </provider>
