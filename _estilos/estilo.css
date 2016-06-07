@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+/*********************************************************************************
+Faculdade de Tecnologia de Franca “Doutor Thomaz Novelino”
+PRIMEIRO PROJETO DE TÓPICOS ESPECIAIS EM INFORMÁTICA - 2016/1
+Autor(es):
+ROBINSON CESAR MENDES <robinho.cripta@gmail.com> - RGM 1090481323033
+ALISSON SALVADOR GONÇALVES <alisson_we_salvador@hotmail.com> - RGM 1090481321004
+*********************************************************************************/
+
 /*
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,700,700italic);*/
 
@@ -85,7 +93,7 @@ section a {
 
 section a:hover {
   text-decoration: underline;
-  opacity: 0.7;
+  opacity: 10;
 }
 
 section a:visited {
@@ -115,6 +123,13 @@ article h3 {
 article h4 {
   font-family: 'Fonte Títulos', Verdana, Arial, sans-serif;
   font-size: 60%;
+  color: #aaaaaa;
+  margin: 0 0 15px 0;
+  float: left;
+}
+article h5 {
+  font-family: 'Fonte Títulos', Verdana, Arial, sans-serif;
+  font-size: 50%;
   color: #aaaaaa;
   margin: 0 0 15px 0;
   float: left;
@@ -187,6 +202,7 @@ aside table {
   border: 2px solid rgb(74, 85, 92);
   border-collapse: collapse;
   background-color: #eeeeee;
+  cellpadding: 5px;
 }
 
 aside table tr:nth-child(2n) {
@@ -295,7 +311,7 @@ footer p {
 }
 
 footer a {
-  color: yellow;
+  color: #B0B0B0;
   text-decoration: none;
 }
 
@@ -342,6 +358,7 @@ form input, form textarea, form select {
   border-radius: 4px;
   font-size: 100%;
   padding: 4px;
+  color: #666666;
 }
 
 @media (max-width: 400px) {
@@ -376,4 +393,5 @@ form input, form textarea, form select {
   #menu-principal:hover ul li {
     float: none;
   }
+
 }
