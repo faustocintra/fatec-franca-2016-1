@@ -7,8 +7,6 @@ Luiz Pedro <luizpedro57@gmail.com> - RGM 1090481321026
 Samuel Silva <samgsilva.1985@gmail.com> - RGM 1090481321036
 ******************************************************************************/
 
-
-
 @font-face {
     font-family: 'Fonte Títulos';
     src: url('../_fontes/DINMedium.ttf');
@@ -30,7 +28,6 @@ header {
     margin: 0 -5vw;
     padding-left: 15px;
 }
-
 
 #logo-principal {
     width: 30%;
