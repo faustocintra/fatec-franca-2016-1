@@ -21,8 +21,6 @@ body {
   font-size: 12pt;
   padding: 0;
   margin: 05vw;
-
-
 }
 
 ul, ol {
@@ -55,12 +53,14 @@ header {
   background-color: rgb(74, 85, 92);
   margin: 0 -5vw;
 }
+
 #menu-principal ul {
   list-style-type: none;
   overflow: auto;
   margin: 0;
   padding: 0;
 }
+
 #menu-principal ul li {
   float: left;
   /*margin-left: 5px;
@@ -68,6 +68,7 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;*/
 }
+
 #menu-principal a {
   color: #ffffff;
   text-decoration: none; /* tira o sublinhado dos links */
@@ -75,21 +76,25 @@ header {
   display: block;
   font-weight: bold;
 }
+
 .link-sel {
   background-color: rgb(148, 22, 17);
 }
 #menu-principal a:hover {
   background-color: #5B666D;
 }
+
 section {
   box-sizing: border-box;
   width: 65%;
   float: left;
   padding: 15px 2% 15px 0;
 }
+
 section.sem-aside {
   width: 100%;
 }
+
 section a {
   color: rgb(176, 17, 22);
   text-decoration: none;
@@ -201,7 +206,6 @@ aside table {
   border: 2px solid rgb(74, 85, 92);
   border-collapse: collapse;
   background-color: #eeeeee;
-
 }
 
 
@@ -213,13 +217,11 @@ aside table td, aside table th {
   border: 1px solid rgb(74, 85, 92);
   padding:3px;
   text-align: center;
-
 }
 
 
 aside table td, aside  article tr th {
   padding: 5px;
-
 }
 
 
