@@ -309,7 +309,7 @@ form div {
 }
 
 form label, form legend {
-  color: rgb(74, 85, 92);
+  color: #666666;
   font-size: 90%;
 }
 
