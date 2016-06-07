@@ -195,7 +195,7 @@ aside table tr:nth-child(2n) {
 
 aside table td, aside table th {
   border: 1px solid rgb(74, 85, 92);
-  padding:3px;
+  padding:5px;
   text-align: center;
 }
 
