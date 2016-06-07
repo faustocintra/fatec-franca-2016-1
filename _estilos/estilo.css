@@ -377,3 +377,8 @@ form input, form textarea, form select {
     float: none;
   }
 }
+
+ul.not-styled{
+    list-style: none;
+    padding: 0;
+}
