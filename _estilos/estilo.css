@@ -381,7 +381,6 @@ form input, form textarea, form select  {
   }
   #menu-principal ul {
     display: none;
-
   }
   #menu-principal {
     height: 48px;
@@ -405,6 +404,5 @@ form input, form textarea, form select  {
   #menu-principal:hover ul li {
     float: none;
   }
-
 
 }

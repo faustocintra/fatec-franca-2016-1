@@ -89,20 +89,16 @@ footer {
     color: #fff;
     font-size: 90%;
 }
-
 footer p {
     text-align: center;
 }
-
 footer a {
     color: yellow;
     text-decoration: none;
 }
-
 footer a:hover {
     text-decoration: underline;
 }
-
 footer a {
     color:  #B0B0B0;
     text-decoration: none;
@@ -110,11 +106,9 @@ footer a {
 p{
     text-align: justify;
 }
-
 h4{
     margin-bottom: 0px;
 }
-
 #predio{
     background-color: #dddddd;
     border: 8px solid #dddddd;
