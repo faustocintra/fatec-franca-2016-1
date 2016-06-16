@@ -1,7 +1,12 @@
 @charset "UTF-8";
 
-/*
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,700,700italic);*/
+/*-----------------------------------------------------------------------------
+Faculdade de Tecnologia de Franca “Doutor Thomaz Novelino”
+PRIMEIRO PROJETO DE TÓPICOS ESPECIAIS EM INFORMÁTICA - 2016/1
+Autor(es):
+Roldao Carrijo Junior <juniorffii@gmail.com> - RGM 1090481323035
+Rogerio Anael Pereira <r.a.pereira3@gmail.com> - RGM 1090481323034
+------------------------------------------------------------------------------>*/
 
 @font-face {
   font-family: 'Fonte Títulos';
@@ -176,7 +181,7 @@ article p {
 
 aside {
   background-color: #dddddd;
-  width: 35%;
+  width: 24%;
   float: right;
 }
 
