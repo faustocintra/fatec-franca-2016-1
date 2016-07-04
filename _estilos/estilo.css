@@ -1,31 +1,7 @@
 @charset "UTF-8";
-/******************************************************************************
-Faculdade de Tecnologia de Franca “Doutor Thomaz Novelino”
-PRIMEIRO PROJETO DE TÓPICOS ESPECIAIS EM INFORMÁTICA - 2016/1
-Autor(es):
-DIMITRY DUARTE <ddmbrito@hotmail.com> - RGM 1090481323005
-RAFAEL GASPARINI <rafaelgasparini@yaahoo.com.br> - RGM 1090481323042
-******************************************************************************/
+
 /*
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,700,700italic);*/
-
-/*Na pagina sobre altera os tamanhos dos <h5> e dos <p>*/
-#sobre h5{
-  font-size: 12pt;
-  color: rgb(74, 85, 92);
-}
-#sobre p {
-  font-size: 11pt;
-  text-align: left;
-}
-/*Altera as configurações da fachada na pagina sobre.html*/
-#fachada-sobre{
-  width: auto ;
-  height: auto;
-
-}
-
-/*Rafael Gasparini*/
 
 @font-face {
   font-family: 'Fonte Títulos';
@@ -90,7 +66,7 @@ header {
   background-color: rgb(148, 22, 17);
 }
 #menu-principal a:hover {
-  background-color: rgb(74, 85, 92);
+  background-color: #5B666D;
 }
 section {
   box-sizing: border-box;
@@ -102,7 +78,7 @@ section.sem-aside {
   width: 100%;
 }
 section a {
-  color: rgb(148, 22, 17);
+  color: rgb(176, 17, 22);
   text-decoration: none;
   transition: opacity 1s;
 }
@@ -125,7 +101,7 @@ article h1 {
   font-size: 200%;
   color: rgb(74, 85, 92);
   margin: 4px 0;
-  border-bottom: 2px solid rgb(148, 22, 17);
+  border-bottom: 2px solid rgb(176, 17, 22);
  }
 
 article h3 {
@@ -139,14 +115,6 @@ article h3 {
 article h4 {
   font-family: 'Fonte Títulos', Verdana, Arial, sans-serif;
   font-size: 60%;
-  color: #aaaaaa;
-  margin: 0 0 15px 0;
-  float: left;
-}
-
-article h5 {
-  font-family: 'Fonte Títulos', Verdana, Arial, sans-serif;
-  font-size: 40%;
   color: #aaaaaa;
   margin: 0 0 15px 0;
   float: left;
@@ -170,12 +138,6 @@ article figure figcaption {
 
 article figure img {
   width: 100%;
-}
-.figure-vestibular{
-  float: left;
-  margin: 8px 20px 8px 0;
-  width: 230px;
-  height: 325px;
 }
 
 .figure-left {
@@ -222,7 +184,7 @@ aside article h1 {
 aside table {
   margin: 10px 5%;
   font-size: 85%;
-  border: 5px solid rgb(74, 85, 92);
+  border: 2px solid rgb(74, 85, 92);
   border-collapse: collapse;
   background-color: #eeeeee;
 }
@@ -245,7 +207,7 @@ aside table caption {
 }
 
 aside table th {
-  background-color: rgb(148, 22, 17);
+  background-color: rgb(176, 17, 22);
   color: #fff;
 }
 
@@ -320,7 +282,7 @@ article.album-fotos figure img {
 
 footer {
   background-color: rgb(74, 85, 92);
-  border-top: 2px solid rgb(148, 22, 17);
+  border-top: 2px solid rgb(176, 17, 22);
   margin: 0 -5vw;
   padding: 10px;
   clear: both;
@@ -333,7 +295,7 @@ footer p {
 }
 
 footer a {
-  color: #B0B0B0;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -347,12 +309,12 @@ form div {
 }
 
 form label, form legend {
-  color: #666666;
+  color: rgb(74, 85, 92);
   font-size: 90%;
 }
 
 form fieldset {
-  border: solid 1px rgb(148, 22, 17);
+  border: solid 1px rgb(176, 17, 22);
   border-radius: 10px;
 }
 
@@ -376,7 +338,7 @@ form fieldset {
 }
 
 form input, form textarea, form select {
-  border: 1px solid rgb(148, 22, 17);
+  border: 1px solid rgb(176, 17, 22);
   border-radius: 4px;
   font-size: 100%;
   padding: 4px;
