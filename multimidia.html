@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
 <head>
+  <!-----------------------------------------------------------------------------
+Faculdade de Tecnologia de Franca “Doutor Thomaz Novelino”
+PRIMEIRO PROJETO DE TÓPICOS ESPECIAIS EM INFORMÁTICA - 2016/1
+Autor(es):
+Luiz Pedro Borges Junior <luizpedro57@gmail.com> - RGM 1090481321026
+Samuel Silva <samgsilva.1985@gmail.com> - RGM 1090481321036
+------------------------------------------------------------------------------>
   <!--Arquivo de Css-->
-  <link rel="stylesheet" href="_estilos/estilo.css" />
+  <link rel="stylesheet" href="_estilos/multimidia.css" />
   <meta charset="UTF-8">
   <title>Faculdade de Tecnologia de Franca &ldquo;Dr. Thomaz Novelino&rdquo; &mdash; Fatec Franca</title>
-
 </head>
 <body>
 <header>
@@ -26,24 +32,35 @@
     <li><a href="contato.html">Contato</a></li>
   </ul>
 </nav>
-  <section class="sem-aside">
-    <article>
-      <h3>Extensão</h3>
-      <h1>7ª Techweek</h1>
-      <div class="clear-both">
-        <h4><time datetime="2015-10-04 14:51">04/10/2015 19h43</time></h4>
-        <h4 class="float-right">Postado por: Diretoria Acadêmica</h4>
-      </div>
-
-      <audio controls>
-        <source src="_audio/7-techweek.mp3" type="audio/mp3" />
-        <source src="_audio/7-techweek.ogg" type="audio/ogg" />
-        <source src="_audio/7-techweek.webm" type="audio/webm" />
-        Desculpe, mas seu navegador não suporta áudios nativamente.
-      </audio>
-
-    </article>
-  </section>
+<section class="sem-aside">
+  <article>
+    <h3>Extensão</h3>
+    <h1>7ª Techweek</h1>
+    <div class="clear-both">
+      <h4><time datetime="2015-10-04 14:51">04/10/2015 19h43</time></h4>
+      <h4 class="float-right">Postado por: Diretoria Acadêmica</h4>
+    </div>
+    <div><audio controls id= "musica1">
+      <source   src="_audio/7-techweek.mp3" type="audio/mp3" />
+      <source src="_audio/7-techweek.ogg" type="audio/ogg" />
+      <source src="_audio/7-techweek.webm" type="audio/webm" />
+      Desculpe, mas seu navegador não suporta áudios nativamente.
+    </audio></div>
+    <div><audio id= "musica2" controls="controls" >
+      <source src="_audio/musica1.mp3" >
+      <source src="_audio/musica1.oggvorbis.ogg" >
+      Desculpe, mas seu navegador não suporta áudios nativamente.
+    </audio></div>
+     <div> <audio  id="musica3" controls="controls">
+        <source src="_audio/musica2.mp3">
+        <source src="_audio/musica2.oggvorbis.ogg" >
+       Desculpe, mas seu navegador não suporta áudios nativamente.
+      </audio></div>
+    
+    <div><iframe id="video1" width="560" height="315" src="https://www.youtube.com/embed/_YzFegJ-vV8" frameborder="0" allowfullscreen></iframe></div>
+    <div><iframe id="video2" width="560" height="315" src="https://www.youtube.com/embed/AH56-DZku4k" frameborder="0" allowfullscreen></iframe></div>
+  </article>
+</section>
 <footer>
   <p><strong>Faculdade de Tecnologia de Franca &ldquo;Thomaz Novelino&rdquo; &ndash; Fatec Franca</strong><br />
     Rua Irênio Grecco, 4580 &ndash; Vila Imperador<br />
@@ -52,8 +69,7 @@
     <a href="maito:fatecfranca@fatecfranca.edu.br">fatecfranca@fatecfranca.edu.br</a> &ndash;
     <a href="http://fatecfranca.edu.br">fatecfranca.edu.br</a>
   </p>
-  <p>&copy; Copyright 2016&ndash; <a href="mailto:fausto@fgcintra.pro.br">Fausto G. Cintra</a>. Todos os direitos reservados.</p>
+  <p>&copy; Copyright 2016&ndash; <a href="mailto:luizpedro57@gmail.com" >Luiz Pedro</a> | <a href="samgsilva.1985@gmail.com" >Samuel Silva</a>. Todos os direitos reservados.</p>
 </footer>
-
 </body>
 </html>

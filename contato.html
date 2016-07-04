@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt_BR">
 <head>
+  <!-----------------------------------------------------------------------------
+Faculdade de Tecnologia de Franca “Doutor Thomaz Novelino”
+PRIMEIRO PROJETO DE TÓPICOS ESPECIAIS EM INFORMÁTICA - 2016/1
+Autor(es):
+ Luiz Pedro Borges Junior <luizpedro57@gmail.com> - RGM 1090481321026
+ Samuel Silva <samgsilva.1985@gmail.com> - RGM 1090481321036
+------------------------------------------------------------------------------>
   <!--Arquivo de Css-->
   <link rel="stylesheet" href="_estilos/estilo.css" />
   <meta charset="UTF-8">
   <title>Faculdade de Tecnologia de Franca &ldquo;Dr. Thomaz Novelino&rdquo; &mdash; Fatec Franca</title>
-
 </head>
 <body>
 <header>
@@ -29,47 +35,36 @@
 <section class="sem-aside">
   <article>
     <h1>Contato</h1>
-
     <form action="mailto:fausto@fgcintra.pro.br" method="post">
-
       <div>
         <label for="c_nome">Nome:</label><br />
         <input type="text" name="f_nome" id="c_nome" minlength="5" maxlength="100" size="60" placeholder="Informe seu nome completo" required />
       </div>
-
       <div>
         <label for="c_data_nascimento">Data de nascimento:</label><br />
         <input type="date" id="c_data_nascimento" name="f_data_nascimento" min="1910-01-01" max="2000-12-31" required />
       </div>
-
       <div>
         <label for="c_email">E-mail:</label><br />
         <input type="email" id="c_email" name="f_email" size="60" required />
       </div>
-
       <div class="padding-top-20px">
         <input type="checkbox" id="c_com_copia" name="f_com_copia" checked />
         <label for="c_com_copia">Desejo receber uma cópia desta mensagem</label>
       </div>
-
       <div>
         <fieldset>
           <legend>Você é</legend>
-
           <input type="radio" name="f_relac" id="c_relac_aluno" value="A" checked />
           <label for="c_relac_aluno">Aluno(a)</label>
-
           <input type="radio" name="f_relac" id="c_relac_docente" value="D" />
           <label for="c_relac_docente">Docente</label>
-
           <input type="radio" name="f_relac" id="c_relac_funcionario" value="F" />
           <label for="c_relac_funcionario">Funcionário(a)</label>
-
           <input type="radio" name="f_relac" id="c_relac_comunidade" value="C" />
           <label for="c_relac_comunidade">Membro da comunidade</label>
         </fieldset>
       </div>
-
       <div class="no-float">
         <label for="c_assunto">Assunto:</label><br />
         <select name="f_assunto" id="c_assunto">
@@ -80,7 +75,6 @@
           <option value="R">Reclamação</option>
         </select>
       </div>
-
       <div>
         <fieldset>
           <legend>Prioridade</legend>
@@ -89,28 +83,22 @@
           Urgente
         </fieldset>
       </div>
-
       <div class="no-float">
         <label for="c_mensagem">Mensagem:</label><br />
         <textarea name="f_mensagem" id="c_mensagem" cols="60" rows="6" placeholder="Digite sua mensagem aqui" minlength="20" maxlength="500" required></textarea>
       </div>
-
       <div class="no-float">
         <label for="c_vezes">Quantas vezes aconteceu isso?</label>
         <input type="number" id="c_vezes" name="f_vezes" min="1" max="10" value="1" />
       </div>
-
       <div>
         <label for="c_cor">Sua cor preferida:</label>
         <input type="color" id="c_cor" name="f_cor" />
       </div>
-
       <div class="form-buttons">
         <input type="submit" value="Enviar" />
       </div>
-
     </form>
-
   </article>
 </section>
 <footer>
@@ -121,8 +109,7 @@
     <a href="maito:fatecfranca@fatecfranca.edu.br">fatecfranca@fatecfranca.edu.br</a> &ndash;
     <a href="http://fatecfranca.edu.br">fatecfranca.edu.br</a>
   </p>
-  <p>&copy; Copyright 2016&ndash; <a href="mailto:fausto@fgcintra.pro.br">Fausto G. Cintra</a>. Todos os direitos reservados.</p>
+  <p>&copy; Copyright 2016&ndash; <a href="mailto:luizpedro57@gmail.com" >Luiz Pedro</a> | <a href="samgsilva.1985@gmail.com" >Samuel Silva</a>. Todos os direitos reservados.</p>
 </footer>
-
 </body>
 </html>

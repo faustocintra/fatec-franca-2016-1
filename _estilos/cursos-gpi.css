@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/******************************************************************************
+Faculdade de Tecnologia de Franca “Doutor Thomaz Novelino”
+PRIMEIRO PROJETO DE TÓPICOS ESPECIAIS EM INFORMÁTICA - 2016/1
+Autor(es):
+Luiz Pedro <luizpedro57@gmail.com> - RGM 1090481321026
+Samuel Silva <samgsilva.1985@gmail.com> - RGM 1090481321036
+******************************************************************************/
+@font-face {
+    font-family: 'Fonte Títulos';
+    src: url('../_fontes/DINMedium.ttf');
+}
+body {
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 12pt;
+    padding: 0;
+    margin: 0 5vw;
+}
+#texto h4{
+    margin-bottom: -12px;
+}
+p{
+    text-align: justify;
+}
+
+
