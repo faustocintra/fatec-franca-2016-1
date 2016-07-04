@@ -1,12 +1,7 @@
 @charset "UTF-8";
 
-/*-----------------------------------------------------------------------------
-Faculdade de Tecnologia de Franca “Doutor Thomaz Novelino”
-PRIMEIRO PROJETO DE TÓPICOS ESPECIAIS EM INFORMÁTICA - 2016/1
-Autor(es):
-Roldao Carrijo Junior <juniorffii@gmail.com> - RGM 1090481323035
-Rogerio Anael Pereira <r.a.pereira3@gmail.com> - RGM 1090481323034
------------------------------------------------------------------------------->*/
+/*
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,700,700italic);*/
 
 @font-face {
   font-family: 'Fonte Títulos';
@@ -75,7 +70,7 @@ header {
 }
 section {
   box-sizing: border-box;
-  width: 75%;
+  width: 65%;
   float: left;
   padding: 15px 2% 15px 0;
 }
@@ -83,7 +78,7 @@ section.sem-aside {
   width: 100%;
 }
 section a {
-  color: rgb(148, 22, 17);
+  color: rgb(176, 17, 22);
   text-decoration: none;
   transition: opacity 1s;
 }
@@ -106,7 +101,7 @@ article h1 {
   font-size: 200%;
   color: rgb(74, 85, 92);
   margin: 4px 0;
-  border-bottom: 2px solid rgb(148, 22, 17);
+  border-bottom: 2px solid rgb(176, 17, 22);
  }
 
 article h3 {
@@ -145,14 +140,6 @@ article figure img {
   width: 100%;
 }
 
-.sobre-marcador{
-  list-style-type: square;
-}
-
-.fonte-sobre-topicos{
-  font-size: 20px;
-}
-
 .figure-left {
   float: left;
   margin: 8px 20px 8px 0;
@@ -169,7 +156,7 @@ article figure img {
 
 article p {
   text-align: justify;
-  text-indent: 0%;
+  text-indent: 10%;
 }
 
 /* limpa as flutuações de ambos os lados */
@@ -181,7 +168,7 @@ article p {
 
 aside {
   background-color: #dddddd;
-  width: 24%;
+  width: 35%;
   float: right;
 }
 
@@ -220,7 +207,7 @@ aside table caption {
 }
 
 aside table th {
-  background-color: rgb(148, 22, 17);
+  background-color: rgb(176, 17, 22);
   color: #fff;
 }
 
@@ -295,7 +282,7 @@ article.album-fotos figure img {
 
 footer {
   background-color: rgb(74, 85, 92);
-  border-top: 2px solid rgb(148, 22, 17);
+  border-top: 2px solid rgb(176, 17, 22);
   margin: 0 -5vw;
   padding: 10px;
   clear: both;
@@ -308,7 +295,7 @@ footer p {
 }
 
 footer a {
-  color: #B0B0B0;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -322,12 +309,12 @@ form div {
 }
 
 form label, form legend {
-  color: #666666;
+  color: rgb(74, 85, 92);
   font-size: 90%;
 }
 
 form fieldset {
-  border: solid 1px rgb(148, 22, 17);
+  border: solid 1px rgb(176, 17, 22);
   border-radius: 10px;
 }
 
@@ -351,7 +338,7 @@ form fieldset {
 }
 
 form input, form textarea, form select {
-  border: 1px solid rgb(148, 22, 17);
+  border: 1px solid rgb(176, 17, 22);
   border-radius: 4px;
   font-size: 100%;
   padding: 4px;
