@@ -1,11 +1,5 @@
 @charset "UTF-8";
-/******************************************************************************
-Faculdade de Tecnologia de Franca “Doutor Thomaz Novelino”
-PRIMEIRO PROJETO DE TÓPICOS ESPECIAIS EM INFORMÁTICA - 2016/1
-Autor(es):
-Luiz Pedro <luizpedro57@gmail.com> - RGM 1090481321026
-Samuel Silva <samgsilva.1985@gmail.com> - RGM 1090481321036
-******************************************************************************/
+
 /*
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,700,700italic);*/
 
@@ -18,7 +12,7 @@ body {
   font-family: Verdana, Arial, sans-serif;
   font-size: 12pt;
   padding: 0;
-  margin: 05vw;
+  margin: 0 5vw;
 }
 
 ul, ol {
@@ -31,13 +25,11 @@ header {
   margin: 0 -5vw;
   padding-left: 15px;
 }
-
 #logo-principal {
   width: 30%;
   min-width: 200px;
   max-width: 350px;
 }
-
 #logo-secundario {
   width: 30%;
   max-width: 300px;
@@ -46,19 +38,16 @@ header {
   bottom: 0;
   right: 0;
 }
-
 #menu-principal {
   background-color: rgb(74, 85, 92);
   margin: 0 -5vw;
 }
-
 #menu-principal ul {
   list-style-type: none;
   overflow: auto;
   margin: 0;
   padding: 0;
 }
-
 #menu-principal ul li {
   float: left;
   /*margin-left: 5px;
@@ -66,7 +55,6 @@ header {
   margin-top: 10px;
   margin-bottom: 10px;*/
 }
-
 #menu-principal a {
   color: #ffffff;
   text-decoration: none; /* tira o sublinhado dos links */
@@ -74,30 +62,25 @@ header {
   display: block;
   font-weight: bold;
 }
-
 .link-sel {
   background-color: rgb(148, 22, 17);
 }
 #menu-principal a:hover {
   background-color: #5B666D;
 }
-
 section {
   box-sizing: border-box;
   width: 65%;
   float: left;
   padding: 15px 2% 15px 0;
 }
-
 section.sem-aside {
   width: 100%;
 }
-
 section a {
   color: rgb(176, 17, 22);
   text-decoration: none;
   transition: opacity 1s;
-
 }
 
 section a:hover {
@@ -206,7 +189,6 @@ aside table {
   background-color: #eeeeee;
 }
 
-
 aside table tr:nth-child(2n) {
   background-color: #ccc;
 }
@@ -216,13 +198,6 @@ aside table td, aside table th {
   padding:3px;
   text-align: center;
 }
-
-
-aside table td, aside  article tr th {
-  padding: 5px;
-}
-
-
 
 aside table caption {
   font-size: 80%;
@@ -320,7 +295,7 @@ footer p {
 }
 
 footer a {
-  color:  #B0B0B0;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -362,8 +337,8 @@ form fieldset {
   font-weight: bold;
 }
 
-form input, form textarea, form select  {
-  border: 1px solid #666666;
+form input, form textarea, form select {
+  border: 1px solid rgb(176, 17, 22);
   border-radius: 4px;
   font-size: 100%;
   padding: 4px;
@@ -388,7 +363,6 @@ form input, form textarea, form select  {
     position: fixed;
     top: 20px;
     right: 20px;
-    margin-top: 40px;
   }
   #menu-principal:hover ul {
     display: block;
@@ -402,5 +376,4 @@ form input, form textarea, form select  {
   #menu-principal:hover ul li {
     float: none;
   }
-
 }
